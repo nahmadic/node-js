@@ -1,1 +1,2 @@
-console.log("This is a test");
+console.log(__dirname);
+console.log(__filename);
