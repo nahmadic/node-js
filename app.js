@@ -1,2 +1,3 @@
-console.log(__dirname);
-console.log(__filename);
+const counter = require("./count");
+
+console.log(counter(["Shaun", "Crystal", "Ryu"]));
